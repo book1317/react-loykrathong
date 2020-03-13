@@ -1,0 +1,25 @@
+$primary-color: black;
+
+body {
+  background-color: $primary-color;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form-header-text {
+  color: #fff;
+  font-size: 32px;
+  background: #210039;
+  border: 2px solid #4caaca;
+  border-radius: 25px;
+  /* padding: 5px 20px 10px; */
+  padding: 5px 20px 10px;
+  box-shadow: 0 1px 7px 5px rgba(76, 170, 200, 0.5);
+  /* position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -370px; */
+}

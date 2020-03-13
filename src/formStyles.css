@@ -1,0 +1,50 @@
+.Form {
+  width: 50%;
+  display: inline-block;
+}
+
+.input-container {
+  margin-top: 40px;
+}
+
+.input-text-container {
+  font-family: sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-text {
+  color: #fff;
+  background-color: #1d0033;
+  border: 1px solid #5be8ff;
+  width: 100%;
+  border-radius: 4px;
+  height: 38px;
+  /* font-family: sukhumvit; */
+  /* font-size: 1.9rem; */
+}
+
+.input-text::placeholder {
+  padding-left: 10px;
+  color: #55475a;
+  opacity: 1;
+}
+
+.button-flow {
+  width: 90%;
+  height: 100px;
+  background: url(https://s.isanook.com/se/0/loykrathong/2019/assets/img/btn.png)
+    center no-repeat;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.button-flow:hover {
+  background: url(https://s.isanook.com/se/0/loykrathong/2019/assets/img/btn_active.png)
+    center center no-repeat;
+}
+
+.button-flow:focus {
+  outline: 0;
+}
